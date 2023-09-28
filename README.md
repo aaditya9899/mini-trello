@@ -13,8 +13,7 @@ The first step is to star this repository. Click the "Star" :star2: button at th
 
 To start contributing, you need to set up the project locally. Follow these steps:
 
-2. **Clone your Fork**: Click the "Code" button and copy the repository URL.<br>
-   Then, open your terminal and run the following command : `git clone (https://github.com/aaditya9899/mini-trello.git)`
+2. **Clone your Fork**: Click the "Code" button and copy the repository URL.Then, open your terminal and run the following command : <br> `git clone (https://github.com/aaditya9899/mini-trello.git)`
 
 4. **Navigate to the Project Directory**: Change your working directory to the cloned repository: `cd mini-trello`
 
