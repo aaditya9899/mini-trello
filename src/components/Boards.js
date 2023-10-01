@@ -32,7 +32,8 @@ function Board() {
     <DndProvider backend={HTML5Backend}>
       <div className="Board">
         {isLoading ? (
-          <div>Loading...</div>
+          <div>
+            <h2 className='loader'>Loading...</h2></div>
         ) : (
           <>
             <Stage

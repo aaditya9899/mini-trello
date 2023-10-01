@@ -1,20 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Bungee+Shade&family=DM+Serif+Display:ital@1&family=Dongle:wght@300&family=Frijole&family=Kanit:wght@300&family=Monoton&family=Poppins:wght@100&family=Rubik+Moonrocks&family=Rubik+Vinyl&family=Rubik+Wet+Paint&family=Rye&family=Tapestry&family=Tillana:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&family=Cinzel:wght@500&family=Cormorant+Garamond:wght@700&family=DM+Serif+Display&family=Dancing+Script:wght@600&family=Inter:wght@500&family=Josefin+Sans:ital@0;1&family=Montserrat:wght@500&family=Niconne&family=Open+Sans&family=Parisienne&family=Prosto+One&family=Roboto:wght@700&family=Yeseva+One&display=swap');
+
 .Board {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-content: center;
+  flex-wrap: wrap;
   padding: 20px;
-  
+
+}
+
+.loader {
+  font-family: 'Prosto One',
+    cursive;
+  color: blueviolet;
+  padding-top: 5rem;
+}
+
+.heading {
+  font-family: 'Prosto One',
+    cursive;
+  color: rgb(8, 50, 93);
+  padding-top: 4rem;
+  font-size: 50px;
 }
 
 /* Style each stage as a card with light gray background */
 .Stage {
-  background-color: #f4f4f4; 
+  background-color: aliceblue;
   border-radius: 8px;
+  font-family: 'Cinzel', serif;
   box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);
   padding: 16px;
-  margin: 0 16px;
-  min-width: 250px;
-  max-width: 300px;
+  margin: 16px;
+  min-width: 300px;
   text-align: center;
 }
 
@@ -22,6 +41,7 @@
 .Task {
   background-color: white;
   border-radius: 8px;
+  font-family: 'Kanit';
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
   padding: 8px 16px;
   margin: 8px 0;
@@ -34,5 +54,5 @@
 
 /* Change background color on hover for task items */
 .Task:hover {
-  background-color: #f0f0f0; 
+  background-color: floralwhite;
 }
